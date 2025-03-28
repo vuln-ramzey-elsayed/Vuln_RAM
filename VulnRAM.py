@@ -5,12 +5,9 @@ import os
 import time
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
-
-def about():
-    """عرض معلومات حول الأداة"""
-    print("""
+print("""
     ====================================
-        Vuln_RAM - WordPress  AND WEP  Scanner
+        Vuln_RAM - WordPress Scanner
     ====================================
     Version: V1
     Developed by: Ramzey Elsayed Mohamed
@@ -24,7 +21,6 @@ def about():
     ------------------------------------
     🚀 Stay Secure - Stay Updated!
     """)
-
 def detect_wp_version(url):
     """يحاول اكتشاف إصدار ووردبريس بعدة طرق"""
     version_sources = [
