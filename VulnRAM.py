@@ -10,7 +10,7 @@ def about():
     """عرض معلومات حول الأداة"""
     print("""
     ====================================
-        Vuln_RAM - WordPress Scanner
+        Vuln_RAM - WordPress  AND WEP  Scanner
     ====================================
     Version: V1
     Developed by: Ramzey Elsayed Mohamed
