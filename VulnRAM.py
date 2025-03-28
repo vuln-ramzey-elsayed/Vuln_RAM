@@ -5,6 +5,7 @@ import os
 import time
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
+
 print("""
     ====================================
         Vuln_RAM - WordPress AND WEP Scanner
@@ -21,6 +22,7 @@ print("""
     ------------------------------------
     🚀 Stay Secure - Stay Updated!
     """)
+
 def detect_wp_version(url):
     """يحاول اكتشاف إصدار ووردبريس بعدة طرق"""
     version_sources = [
