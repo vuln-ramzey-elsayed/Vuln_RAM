@@ -30,14 +30,14 @@
 #    Version: V1
 #   Developed by: Ramzey Elsayed Mohamed
     ------------------------------------
-#    An advanced Python tool for scanning and testing WordPress vulnerabilities,
-#    including XSS, SQL Injection, and user enumeration. 
- #   It also crawls the website and extracts potential parameters.
+   An advanced Python tool for scanning and testing WordPress vulnerabilities,
+    including XSS, SQL Injection, and user enumeration. 
+    It also crawls the website and extracts potential parameters.
     ------------------------------------
   # Usage:
-  #  python vuln_ram.py https://target.com -o results.txt
+    python vuln_ram.py https://target.com -o results.txt
     ------------------------------------
-  #  🚀 Stay Secure - Stay Updated!
+    🚀 Stay Secure - Stay Updated!
 
 # My Facebook account :
 # https://www.facebook.com/profile.php?id=100035076459679
