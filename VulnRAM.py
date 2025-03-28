@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 print("""
     ====================================
-        Vuln_RAM - WordPress Scanner
+        Vuln_RAM - WordPress AND WEP Scanner
     ====================================
     Version: V1
     Developed by: Ramzey Elsayed Mohamed
