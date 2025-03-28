@@ -6,6 +6,25 @@ import time
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 
+def about():
+    """عرض معلومات حول الأداة"""
+    print("""
+    ====================================
+        Vuln_RAM - WordPress Scanner
+    ====================================
+    Version: V1
+    Developed by: Ramzey Elsayed Mohamed
+    ------------------------------------
+    An advanced Python tool for scanning and testing WordPress vulnerabilities,
+    including XSS, SQL Injection, and user enumeration. 
+    It also crawls the website and extracts potential parameters.
+    ------------------------------------
+    Usage:
+    python vuln_ram.py https://target.com -o results.txt
+    ------------------------------------
+    🚀 Stay Secure - Stay Updated!
+    """)
+
 def detect_wp_version(url):
     """يحاول اكتشاف إصدار ووردبريس بعدة طرق"""
     version_sources = [
