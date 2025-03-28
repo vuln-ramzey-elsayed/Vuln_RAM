@@ -11,7 +11,7 @@
  ====================================
  
   #   Version: V1
-    # Developed by: Ramzey Elsayed Mohamed
+# Developed by: Ramzey Elsayed Mohamed
    
 1- Detect WordPress version from multiple sources like readme.html and version.php.
 
