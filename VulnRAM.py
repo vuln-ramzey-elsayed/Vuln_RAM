@@ -17,7 +17,7 @@ print("""
     It also crawls the website and extracts potential parameters.
     ------------------------------------
     Usage:
-    python vuln_ram.py https://target.com -o results.txt
+    python VulnRAM.py https://target.com -o results.txt
     ------------------------------------
     🚀 Stay Secure - Stay Updated!
     """)
